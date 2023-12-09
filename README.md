@@ -8,11 +8,13 @@
 7) => all set just  hit the command (npm start)
 8) => it has two api's
 9)  one =>  https://digital-avenue-task-api.onrender.com
-10)   endpoints :- /api/user/signup (post)  
-11)                /api/user/signin (post)
-12)   second api =>  https://digital-avenue-task-api.onrender.com
-13)    endpoints:- /api/tasks/add   (post) 
-14)                /api/tasks/get   (Get) 
-15)                /api/tasks/getById  (Get) 
-16)                  /api/tasks/update/:id  (Put) 
-17)               /api/tasks/delete/:id  (Delete) 
+10)   endpoints :-
+11)                /api/user/signup (post)  
+12)                /api/user/signin (post)
+13)   second api =>  https://digital-avenue-task-api.onrender.com
+14)    endpoints:-
+15)                /api/tasks/add   (post) 
+16)                /api/tasks/get   (Get) 
+17)                /api/tasks/getById  (Get) 
+18)                /api/tasks/update/:id  (Put) 
+19)                /api/tasks/delete/:id  (Delete) 
