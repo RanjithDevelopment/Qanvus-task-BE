@@ -4,7 +4,7 @@ const cors = require('cors');
 const registerRouter = require('./Router/RegisterRouter');
 const DB = require('./connection');
 const auth = require('./Modules/Authmodule');
-const ProductRouter = require('./Router/productRouter');
+const TaskRouter = require('./Router/TaskRouter');
 //env variables configuraiton
   dotenv.config();
 //calling DB connection function 
@@ -15,6 +15,6 @@ app.use(express.json());
 
 //api's
 app.use('/api/user',registerRouter);
-app.use('/',auth.AuthenticateUser);
-app.use('/api/products',ProductRouter)
+app.use('/',auth.AuthenticateUser);//authentication middleWare to athunticate the tasks 
+app.use('/api/tasks',TaskRouter)
 app.listen(process.env.PORT);
